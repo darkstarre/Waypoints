@@ -1,0 +1,108 @@
+vim commands
+  Navigation
+    Across characters
+      h,j,k,l - general movement (l,r,d,u)
+    Across words
+      w, b - jump forward/back between words
+      e - end of word
+    Across the line
+      t, f, ; - upto char, find char, repeat find
+      $, ^ - move to beginning/end of line
+    Across paragraphs
+      {,} - jump between paragraphs
+    Across the document
+      G, gg - top/bottom of file
+  Editing
+    Insert Mode
+      i - insert before current character
+      A, I - insert at end/beginning of line
+      o - insert on next line
+    Normal Mode
+      <Esc> - go to normal mode
+      Ctrl-c - go to normal mode
+      >>, << - indent
+      ctrl-r - redo
+      u - undo
+      . - repeat
+      y,p - yank(copy) paste
+      x - delete character
+      r - replace character
+      d<location> - delete through location
+    Visual Mode
+      V - highlight by line
+      Ctrl-v - highlight by char
+
+Unix Programs
+  Dir / file manipulation
+    mkdir - make a directory
+    cd - change directory
+    rm - remove file 
+    mv - move a file changes name of file (mvdir move directory) !CAUTION!-overwrites the old file name
+    cp - copy 
+    ln - links two files
+    chmod - change the programs permissions (+/- x rw w r)
+    vim - edits and creates files
+    more - see the entire contents of a file
+    less - ^^^shows you less; Sean thinks it's handy.
+  Querying
+    ls -l - list the contents of the current directory (-l -a)
+    which - informs you where the program is located
+    pwd - print working directory
+    cat - concatenates and prints the file
+    date - displays the current date
+    tree - displays contents of directory in branch form
+    curl - see url. Displays contents
+  Stream Modifiers
+    sort - prints input lines in sorted order 
+    grep - group regular expressions searches input for regular expressions
+    tr   - translate - pulls out specified data out of an input string
+  Ruby
+    ruby - see OOP; must have an .rb file
+    chruby - changes the ruby version; must have a .rb file
+    ruby-install - derp
+    pry - irb alternative that allows a more user friendly experience for all! #socialism
+    seeing_is_believing - evaluates ruby code and records the results of everything
+  Shells
+    bash - not good
+    fish - good
+
+shell
+  tab - completes
+  environment variables
+    $PATH - "array" of directories, used to locate programs that can be run
+    ARGV  - arguement variables
+  Named directories
+    ~  - home
+    .. - parent
+    .  - current
+    /  - root
+
+6 structures:
+  Strings - words and chars with ""
+  Booleans - TRUE OR FALSE(false or nil.rb) 
+  Arrays - ordered(indexed)! collection of stuff and things
+  Hashes - k:v pairs of named things and stuff
+  Numbers - int,float, double/ numeric = top level num class 
+  Nil - null, void
+ruby structures-object model
+  bindings - self, 
+  classes
+  objects
+nokogiri
+fish
+unix
+command line
+linked lists
+oop
+syntax (synseer)
+typing
+Shebang!
+making friends
+influencing people
+git
+hard skills/soft skills
+environmental variables
+boolean expressons
+loops
+heuristics
+

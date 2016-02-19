@@ -1,0 +1,8 @@
+$ mkdir a c a/lol a/wtf
+{"mkdir"=>[{"a"=>["lol","wtf"]},"c"]
+
+$ ls -l -a 
+{"ls"=>["-l","-a"]}
+
+$ clear
+{"clear"=>"link"}

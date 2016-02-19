@@ -1,0 +1,15 @@
+===================Git===================
+#Every commit is immutable. It never changes
+    only ever adding
+      so, how to delete?
+        add a deletion
+      when you change the past, you're fucking up everyone who has the present
+#your repository is an aggregation of all your commits...all your additions and deletions
+#A branch is a named commit
+
+#CARDINAL RULES
+#Commit constantly
+#run git status after everything you do
+
+#Practice
+

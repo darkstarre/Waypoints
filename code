@@ -1,0 +1,21 @@
+require "net/http"
+week = {"01" => ["02-01","02-02","02-03","02-04","02-05"]},
+                
+
+uri = URI "https://raw.githubusercontent.com/CodePlatoon/daily/master/ARGV[0]/ARGV[1]"
+p Net:: HTTP.get(uri.to_s.split("/n"))
+
+
+date = ARGV[1]
+week = ARGV[0]
+
+def date(ARGV[0])
+end
+
+def week(ARGV[1])
+  
+
+# !> /var/folders/q9/3yslrj7n30z1khm9191w35d00000gn/T/seeing_is_believing_temp_dir20160210-20183-y4magq/program.rb:11: syntax error, unexpected end-of-input
+# !> /Users/MacBookPro/.gem/ruby/2.2.2/gems/seeing_is_believing-3.0.0.beta.6/lib/seeing_is_believing/event_stream/producer.rb:97:in `record_exception': undefined method `size' for nil:NilClass (NoMethodError)
+# !> \tfrom /Users/MacBookPro/.gem/ruby/2.2.2/gems/seeing_is_believing-3.0.0.beta.6/lib/seeing_is_believing/the_matrix.rb:40:in `block in <top (required)>'
+
